@@ -12,8 +12,5 @@ public class ApplicationConfig {
 
     @Value("${minInitSpeed}")
     private Integer minInj;
-    
-
-
 
 }

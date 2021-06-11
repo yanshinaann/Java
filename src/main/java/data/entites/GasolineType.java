@@ -1,4 +1,4 @@
-package domain;
+package data.entites;
 
 public enum GasolineType {
     regular92,
