@@ -1,5 +1,4 @@
 
-
 CREATE TABLE car (
     id SERIAL PRIMARY KEY ,
     сar_name CHARACTER VARYING(50) NOT NULL,

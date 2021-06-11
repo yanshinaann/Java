@@ -26,43 +26,4 @@ public class Price {
     @OneToMany(mappedBy="order")
     private Set<Order> orders;
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public GasolineType getGasolineType() {
-        return gasolineType;
-    }
-
-    public void setGasolineType(GasolineType gasolineType) {
-        this.gasolineType = gasolineType;
-    }
-
-    public double getPrice() {
-        return price;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
-    }
-
-    public double getWholesalePrice() {
-        return wholesalePrice;
-    }
-
-    public void setWholesalePrice(double wholesalePrice) {
-        this.wholesalePrice = wholesalePrice;
-    }
-
-    public Set<Order> getOrders() {
-        return orders;
-    }
-
-    public void setOrders(Set<Order> orders) {
-        this.orders = orders;
-    }
 }

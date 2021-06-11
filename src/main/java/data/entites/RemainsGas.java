@@ -6,6 +6,8 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 
+
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -20,27 +22,6 @@ public class RemainsGas {
 
     private double amountGas;
 
-    public int getId() {
-        return id;
-    }
 
-    public void setId(int id) {
-        this.id = id;
-    }
 
-    public GasolineType getGasolineType() {
-        return gasolineType;
-    }
-
-    public void setGasolineType(GasolineType gasolineType) {
-        this.gasolineType = gasolineType;
-    }
-
-    public double getAmountGas() {
-        return amountGas;
-    }
-
-    public void setAmountGas(double amountGas) {
-        this.amountGas = amountGas;
-    }
 }
